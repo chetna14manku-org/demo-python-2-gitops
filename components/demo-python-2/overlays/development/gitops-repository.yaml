@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: demo-python-2-gitops-repository
+spec:
+  url: https://github.com/chetna14manku-org/demo-python-2-gitops
